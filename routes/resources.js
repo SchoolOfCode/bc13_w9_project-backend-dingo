@@ -1,5 +1,14 @@
 import { Router } from "express";
-// import * as resourcesModel from "../models/users.js";
+import {getResources} from "../models/resources.js"
 
 // set up simple get request to return all resources
-// Model has yet to be made, but then we use it here!
+
+const router = Router()
+
+router.get("/", async function (req, res) {
+
+    const resources = await getResources();
+    res.json({success: true, payload: resources})
+})
+
+export default router;
