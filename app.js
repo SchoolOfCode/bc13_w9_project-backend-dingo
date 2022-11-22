@@ -1,6 +1,6 @@
 // import and save express so we can call it
 import express from "express"; 
-const PORT = proces.env.PORT;
+const PORT = process.env.PORT;
 
 // import in our resourcesRouter
 import router from "./routes/resources.js";

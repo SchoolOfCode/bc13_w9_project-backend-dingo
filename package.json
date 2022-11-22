@@ -8,7 +8,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
-
+  "type": "module",
   "devDependencies": { 
     "dotenv": "^16.0.3",
     "morgan": "^1.10.0",
