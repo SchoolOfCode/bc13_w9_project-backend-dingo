@@ -22,3 +22,16 @@ DONE // check that all the dependancies and devDependancies we need are installe
       DONE  //index.js
       DONE  //index.html
       DONE  //style.css
+
+
+WEDNESDAY PLAN:
+
+// add routes
+  POST
+
+// add models 
+  POST
+
+// add tests
+  GET request
+  POST request

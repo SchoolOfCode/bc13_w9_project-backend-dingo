@@ -13,8 +13,6 @@ export const pool = new pg.Pool({
 
 
 // And set way of making SQL queries from the app
-// ❓ Can we do module.exports if we're using ES6?
-
 
 function query (text, params) {
   console.log("Text:", text, "params:", params)
