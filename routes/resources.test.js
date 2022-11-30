@@ -4,7 +4,7 @@ import app from "../app";
 import request from "supertest";
 // import jest
 import { test, expect } from "@jest/globals";
-import {pool} from '../db'
+import {pool} from '../db/index'
 
 test("test to see if get route works", async () => {
 	const response = await request(app).get("/api/resources");
