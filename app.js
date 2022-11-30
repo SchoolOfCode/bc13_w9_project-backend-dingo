@@ -4,7 +4,7 @@ const PORT = process.env.PORT;
 import cors from "cors";
 
 // import in our resourcesRouter
-import router from "./routes/resources.js";
+import {router}from "./routes/resources.js";
 //order of middleware is IMPORTANT!
 const app = express();
 app.use(express.json());

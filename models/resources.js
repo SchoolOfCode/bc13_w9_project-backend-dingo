@@ -2,7 +2,7 @@ import { pool } from "../db/index.js";
 
 
 /**
- * GET ALL RESCOUCES
+ * GET ALL RESOURCES
  * @returns all data from resource table using SQL query
  * pool.query translates SQL query to get information from database
  */

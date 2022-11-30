@@ -15,7 +15,7 @@ test("test to see if get route works", async () => {
 	});
 	for (let i = 0; i < response.body.payload.length; i++) {
 		const resourceObject = response.body.payload[i];
-		expect(resourceObject).toStrictEqual({
+		expect(resourceObject).toEqual({
 			author: expect.any(String),
 			category: expect.any(String),
 			difficulty: expect.any(Number),
